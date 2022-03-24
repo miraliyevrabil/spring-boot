@@ -1,0 +1,9 @@
+package com.rabilmiraliyev.myappbackend.repository;
+
+import com.rabilmiraliyev.myappbackend.model.Enums;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface EnumsRepository extends JpaRepository<Enums,Long> {
+}
