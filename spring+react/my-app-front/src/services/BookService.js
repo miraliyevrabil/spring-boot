@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const REACT_REST_API_URL = 'http://localhost:8080/api/admin/books';
+const REACT_REST_API_URL = 'http://localhost:8080/api/books';
 
 class BookService {
 
