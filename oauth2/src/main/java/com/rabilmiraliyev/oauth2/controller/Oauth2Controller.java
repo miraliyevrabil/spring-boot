@@ -5,6 +5,8 @@ import com.rabilmiraliyev.oauth2.conf.CustomOAuth2User;
 import com.rabilmiraliyev.oauth2.conf.CustomOAuth2UserService;
 import com.rabilmiraliyev.oauth2.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
 import org.springframework.security.oauth2.client.userinfo.OAuth2UserRequest;
 import org.springframework.security.oauth2.core.OAuth2AuthenticationException;
 import org.springframework.security.oauth2.core.user.OAuth2User;
@@ -24,6 +26,11 @@ public class Oauth2Controller {
     @GetMapping("/auth")
     public String auht(){
         return "You logged in with Google";
+    }
+    @GetMapping("/user")
+    public ResponseEntity<?> user(Authentication authentication){
+        CustomOAuth2User oauthUser = (CustomOAuth2User) authentication.getPrincipal();
+        return ResponseEntity.ok(oauthUser);
     }
 
 }
