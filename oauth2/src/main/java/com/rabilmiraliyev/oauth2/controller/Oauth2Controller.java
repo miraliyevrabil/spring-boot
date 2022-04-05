@@ -1,4 +1,4 @@
-package com.rabilmiraliyev.oauth2;
+package com.rabilmiraliyev.oauth2.controller;
 
 
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -13,7 +13,7 @@ public class Oauth2Controller {
     public String home(){
         return "home";
     }
-    @GetMapping("/auth")
+    @GetMapping("/list")
     public String auht(){
         return "You logged in with Google";
     }
