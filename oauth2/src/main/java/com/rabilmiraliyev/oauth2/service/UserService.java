@@ -19,10 +19,8 @@ public class UserService {
 			User newUser = new User();
 			newUser.setUsername(username);
 			newUser.setProvider(Provider.GOOGLE);
-			newUser.setEnabled(true);			
-			
+			newUser.setEnabled(true);
 			repo.save(newUser);
-			
 			System.out.println("Created new user: " + username);
 		}
 		
