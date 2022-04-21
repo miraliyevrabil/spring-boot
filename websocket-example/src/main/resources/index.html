@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Chat WebSocket</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.4.0/sockjs.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.js"></script>
+    <script type="text/javascript" >
+        var stompClient = null;
+        var baseAddress = 'http://localhost:8080';
+        function connect() {
+            var socket = new SockJS(baseAddress + '/chat');
+            stompClient = Stomp.over(socket);
+            stompClient.connect({}, function(frame) {
+                console.log('Connected: ' + frame);
+                stompClient.subscribe('/topic', function (message) {
+                });
+            });
+        }
+    </script>
+</head>
+<body >
+<div>
+    <h1>Notifications</h1>
+    <button onclick="connect()">See Notifications</button>
+    <pre id="log"></pre>
+</div>
+
+</body>
+</html>
