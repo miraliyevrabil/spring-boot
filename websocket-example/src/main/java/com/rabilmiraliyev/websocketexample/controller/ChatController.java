@@ -8,7 +8,6 @@ import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.messaging.simp.annotation.SendToUser;
-import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -30,7 +29,7 @@ public class ChatController {
         wsMessageRepository.save(wsMessage);
         simpMessagingTemplate.convertAndSend("/topic",wsMessage);
     }
-   @Async
+
     @RequestMapping(value = "/notifications",method = RequestMethod.GET)
     public String get(){
         return "Notifications on Console";
