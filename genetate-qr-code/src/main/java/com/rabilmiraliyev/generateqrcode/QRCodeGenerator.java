@@ -13,9 +13,7 @@ import com.google.zxing.qrcode.QRCodeWriter;
 
 public class QRCodeGenerator {
 
-    static String data = "https://www.linkedin.com/in/rabilmiraliyev/";
-
-    public static void generateQRCodeImage( int width, int height, String filePath)
+    public static void generateQRCodeImage(String data ,int width, int height, String filePath)
             throws WriterException, IOException {
         QRCodeWriter qrCodeWriter = new QRCodeWriter();
         BitMatrix bitMatrix = qrCodeWriter.encode(data, BarcodeFormat.QR_CODE, width, height);
@@ -26,7 +24,7 @@ public class QRCodeGenerator {
     }
 
 
-    public static byte[] getQRCodeImage( int width, int height) throws WriterException, IOException {
+    public static byte[] getQRCodeImage(String data, int width, int height) throws WriterException, IOException {
         QRCodeWriter qrCodeWriter = new QRCodeWriter();
         BitMatrix bitMatrix = qrCodeWriter.encode(data, BarcodeFormat.QR_CODE, width, height);
 
