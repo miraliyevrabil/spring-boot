@@ -33,7 +33,7 @@ public class PersonServiceImpl implements PersonService{
         person.setFisrtname(personDto.getFirstname());
         person.setLastname(personDto.getLastname());
         final Person personDb = personRepository.save(person);
-
+///
         List<Adress> list = new ArrayList<>();
         personDto.getAdresses().forEach(item -> {
             Adress adress = new Adress();
@@ -43,7 +43,8 @@ public class PersonServiceImpl implements PersonService{
             adress.setPerson(personDb);
         });
         adressRepository.saveAll(list);
-        personDto.setId(personDb.getId());
+//        personDto.setId(personDb.getId());
+//        personRepository.save(personDb);
         return personDto;
     }
 
