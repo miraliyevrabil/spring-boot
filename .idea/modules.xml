@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/elasticsearch/elasticsearch.iml" filepath="$PROJECT_DIR$/elasticsearch/elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/genetate-qr-code/generate-qr-code.iml" filepath="$PROJECT_DIR$/genetate-qr-code/generate-qr-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/kafka-example/kafka-example.iml" filepath="$PROJECT_DIR$/kafka-example/kafka-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/oauth2/oauth2.iml" filepath="$PROJECT_DIR$/oauth2/oauth2.iml" />

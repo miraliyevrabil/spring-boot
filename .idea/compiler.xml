@@ -8,14 +8,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="generate-qr-code" />
-        <module name="oauth2" />
+        <module name="elasticsearch" />
         <module name="spring-boot-data-jpa-postgreSQL" />
         <module name="websocket-example" />
+        <module name="oauth2" />
         <module name="swagger" />
         <module name="kafka-example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="elasticsearch" target="17" />
       <module name="generate-qr-code" target="17" />
       <module name="kafka-example" target="16" />
       <module name="oauth2" target="17" />

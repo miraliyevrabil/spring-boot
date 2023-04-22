@@ -1,4 +1,4 @@
-package com.rabilmiraliyev.controller;
+package com.rabilmiraliyev;
 
 import com.rabilmiraliyev.dto.PersonDto;
 import com.rabilmiraliyev.service.PersonService;
