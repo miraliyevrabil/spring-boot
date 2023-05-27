@@ -1,0 +1,20 @@
+type Task {
+    id: ID!,
+    type: String!,
+    description: String,
+    date: String
+}
+
+input TaskDto {
+    type: String!,
+    description: String!
+}
+
+type Query {
+    getTask(type: String):[Task]
+    getById(id: ID):Task
+}
+
+type Mutation {
+    createTask(task: TaskDto):Task
+}

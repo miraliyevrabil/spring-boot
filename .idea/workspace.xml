@@ -5,16 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a01610f-5076-4202-bd76-441302ff3bb7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/graphql/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql/src/main/java/com/rabilmiraliyev/graphql/GraphQLApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql/src/main/java/com/rabilmiraliyev/graphql/controller/TaskMutationResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql/src/main/java/com/rabilmiraliyev/graphql/controller/TaskQueryResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql/src/main/java/com/rabilmiraliyev/graphql/model/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql/src/main/java/com/rabilmiraliyev/graphql/model/dto/TaskDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql/src/main/java/com/rabilmiraliyev/graphql/repo/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql/src/main/resources/vehicle.graphqls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datajpa-postgreSQL/src/main/java/com/rabilmiraliyev/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/datajpa-postgreSQL/src/main/java/com/rabilmiraliyev/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/src/main/java/com/rabilmiraliyev/ElasticsearchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/rabilmiraliyev/ElasticsearchApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/src/main/java/com/rabilmiraliyev/config/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/rabilmiraliyev/config/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/src/main/java/com/rabilmiraliyev/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/rabilmiraliyev/controller/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/src/main/java/com/rabilmiraliyev/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/rabilmiraliyev/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/src/main/java/com/rabilmiraliyev/repository/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/rabilmiraliyev/repository/PersonRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,10 +62,15 @@
     <property name="jdk.selected.JAVA_MODULE" value="17" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/elasticsearch/src/main/java/com/rabilmiraliyev" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -73,7 +80,7 @@
       <recent name="D:\Users\Rabil\Workspace\GitHub\spring-boot\elasticsearch\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ElasticsearchApplication">
+  <component name="RunManager" selected="Spring Boot.GraphQLApplication">
     <configuration name="ElasticsearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="elasticsearch" />
       <extension name="coverage">
@@ -90,6 +97,19 @@
     <configuration name="GenerateQrCodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="generate-qr-code" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.rabilmiraliyev.generateqrcode.GenerateQrCodeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphQLApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="graphql" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rabilmiraliyev.graphql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rabilmiraliyev.graphql.GraphQLApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,9 +178,11 @@
       <item itemvalue="Spring Boot.SwaggerApplication" />
       <item itemvalue="Spring Boot.WebsocketExampleApplication" />
       <item itemvalue="Spring Boot.ElasticsearchApplication" />
+      <item itemvalue="Spring Boot.GraphQLApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GraphQLApplication" />
         <item itemvalue="Spring Boot.ElasticsearchApplication" />
         <item itemvalue="Docker.resources.elasticsearch: Compose Deployment" />
         <item itemvalue="Docker.resources/dokcer-compose.yml.elasticsearch: Compose Deployment" />
@@ -210,5 +232,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/graphql/src/main/java/com/rabilmiraliyev/graphql/controller/TaskQueryResolver.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

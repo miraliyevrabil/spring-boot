@@ -12,6 +12,7 @@
         <module name="spring-boot-data-jpa-postgreSQL" />
         <module name="websocket-example" />
         <module name="oauth2" />
+        <module name="graphql" />
         <module name="swagger" />
         <module name="kafka-example" />
       </profile>
@@ -19,17 +20,20 @@
     <bytecodeTargetLevel>
       <module name="elasticsearch" target="17" />
       <module name="generate-qr-code" target="17" />
+      <module name="graphql" target="17" />
       <module name="kafka-example" target="16" />
       <module name="oauth2" target="17" />
       <module name="spring-boot" target="1.5" />
       <module name="spring-boot-data-jpa-postgreSQL" target="17" />
       <module name="swagger" target="17" />
+      <module name="untitled" target="17" />
       <module name="websocket-example" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="generate-qr-code" options="-parameters" />
+      <module name="graphql" options="-parameters" />
       <module name="kafka-example" options="-parameters" />
       <module name="oauth2" options="-parameters" />
       <module name="spring-boot-data-jpa-postgreSQL" options="-parameters" />
