@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a01610f-5076-4202-bd76-441302ff3bb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/graphql/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql/src/main/java/com/rabilmiraliyev/graphql/GraphQLApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql/src/main/java/com/rabilmiraliyev/graphql/controller/TaskMutationResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql/src/main/java/com/rabilmiraliyev/graphql/controller/TaskQueryResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql/src/main/java/com/rabilmiraliyev/graphql/model/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql/src/main/java/com/rabilmiraliyev/graphql/model/dto/TaskDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql/src/main/java/com/rabilmiraliyev/graphql/repo/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphql/src/main/resources/vehicle.graphqls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/src/main/java/com/rabilmiraliyev/swagger/config/MessageConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/src/main/resources/messages_aze.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagger/src/main/resources/messages_eng.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/src/main/java/com/rabilmiraliyev/swagger/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/swagger/src/main/java/com/rabilmiraliyev/swagger/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +54,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/elasticsearch/src/main/java/com/rabilmiraliyev" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/swagger/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -74,13 +67,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\Rabil\Workspace\GitHub\spring-boot\swagger\src\main\resources" />
       <recent name="D:\Users\Rabil\Workspace\GitHub\spring-boot\datajpa-postgreSQL" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\Rabil\Workspace\GitHub\spring-boot\elasticsearch\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GraphQLApplication">
+  <component name="RunManager" selected="Spring Boot.SwaggerApplication">
     <configuration name="ElasticsearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="elasticsearch" />
       <extension name="coverage">
@@ -203,6 +197,7 @@
       <workItem from="1682114194287" duration="3858000" />
       <workItem from="1682118727789" duration="6460000" />
       <workItem from="1682202871844" duration="1826000" />
+      <workItem from="1685821441978" duration="1701000" />
     </task>
     <servers />
   </component>
